@@ -1,6 +1,14 @@
-html, body {
+body {
     margin: 0;
     background-color: #282D35;
+    height: 100vh;
+
+    background-image: url("./images/react-icon-large.png");
+    background-repeat: no-repeat;
+    background-size:250px;
+    background-position: right center;
+
+    border: 2px solid red;
 }
 * {
     font-family: 'Inter', sans-serif;
@@ -14,7 +22,6 @@ html, body {
     align-items: center;
 
     gap: 10px;
-
 }
 
 .navbar {
